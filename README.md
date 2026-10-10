@@ -74,16 +74,12 @@ The repository contains the analyses underlying the manuscript:
 
 For entity \(e\), negative review burden is defined as:
 
-\[
-B_e =
-P(E_e = 1)
-\times
-P(Y = \mathrm{negative} \mid E_e = 1)
-=
-P(E_e = 1,\ Y = \mathrm{negative})
-\]
+```math
+B_e = P(E_e = 1) \times P(Y = \mathrm{negative} \mid E_e = 1)
+    = P(E_e = 1,\ Y = \mathrm{negative})
+```
 
-where \(E_e = 1\) indicates that entity \(e\) is mentioned.
+where $E_e = 1$ indicates that entity $e$ is mentioned.
 
 Negative review burden therefore represents the proportion of all reviews that both mention a given entity and receive a negative review-level star rating.
 
